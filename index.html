@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fun_Book-4U</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+  <nav>
+
+     <div class="nav-left">
+        <img src="./images/logo.png" class="logo"/>
+        <ul>
+            <li><img src="./images/notification.png"></li>
+            <li><img src="./images/inbox.png"></li>
+            <li><img src="./images/video.png"></li>
+        </ul>
+     </div>
+
+     <div class="nav-right">
+        <div class="div search-box"> 
+            <img src="./images/search.png"/>
+            <input type="search" placeholder="  Search here" />
+     </div>
+
+       <div class="nav-user-icon online" onclick="showprofile()">
+        <img src="./images/profile-pic.png">
+       </div>
+       
+     </div>
+
+
+ <!-- user icon menu -->
+    <div class="user-profile-menu" id="profilebody"> 
+      <!-- theme toggle button -->
+
+      <div class="toggle-btn" onclick="btnmove()" >
+        <span  id="themebtn"><i style="color: #626262;">@</i></span>
+      </div>
+
+      <div class="profile-menu-inner">
+        <div class="user-profile">
+        <img src="./images/profile-pic.png"  onclick="showprofile()">
+        <div><p>Mr.vishnu</p> 
+        <a href="">Profile View</a></div>
+        
+      </div>
+    </div>
+    <hr>
+    <div class="user-profile">
+      <img src="./images/feedback.png" >
+    <div>
+      <p>Give Feedback</p>
+      <a href="">Help me to improve for new Design </a>
+    </div>
+  </div>
+  <hr>
+
+ <div class="profile-links">
+    <img src="./images/setting.png"  class="setting-icon">
+    <a href="">setting & privacy<img src="./images/arrow.png" width="11px"></a>
+  <hr>
+</div>
+
+ <div class="profile-links">
+  <img src="./images/help.png"  class="setting-icon">
+  <a href="">Help & support<img src="./images/arrow.png" width="11px"></a>
+  <hr>
+</div>
+
+<div class="profile-links">
+  <img src="./images/display.png"  class="setting-icon">
+  <a href="">Dispplay & Accessability<img src="./images/arrow.png" width="11px"></a>
+  <hr>
+</div>
+<div class="profile-links">
+  <img src="./images/logout.png  "  class="setting-icon">
+  <a href="">Logout<img src="./images/arrow.png" width="11px"></a>
+  <hr>
+</div>
+      </div>
+      
+    
+     
+       
+    </div>
+  </nav>
+ 
+<!-- left-sidebar -->
+   <div class="container">
+        
+       <div class="left-sidebar">
+           <div class="imp-links">
+
+              <a href=""><img src="./images/news.png"> lateast news</a>
+              <a href=""><img src="./images/friends.png"> friends</a>
+              <a href=""><img src="./images/group.png"> group</a>
+              <a href=""><img src="./images/marketplace.png"> marketplace </a>
+              <a href=""><img src="./images/watch.png"> Watch</a>
+              <a href="">see more</a>
+              
+            </div>
+
+            <div class="shortcut-links">
+              <p>Your shortcut-links</p>
+              <a href=""><img src="./images/shortcut-1.png">web developers</a>
+              <a href=""><img src="./images/shortcut-2.png">web Design Courses</a>
+              <a href=""><img src="./images/shortcut-3.png">ful stack development</a>
+              <a href=""><img src="./images/shortcut-4.png">website experts</a> 
+            </div>
+
+      </div>
+
+       <!-- main-content -->
+<div class="main-content">
+            
+         <div class="story-gallery">
+             <div class="story story5">
+             <img src="./images/upload.png">
+              <p>post story</p>
+           </div>
+           <div class="story story1">
+            <img src="./images/member-1.png">
+             <p>post story</p>
+          </div>
+          <div class="story story2">
+            <img src="./images/member-2.png">
+             <p>post story</p>
+          </div> <div class="story story3">
+            <img src="./images/member-3.png">
+             <p>post story</p>
+          </div> <div class="story story4">
+            <img src="./images/member-4.png">
+             <p>post story</p>
+          </div>
+         </div>
+         
+
+      <!-- user post divisuon -->
+    <div class="post-conainer">
+
+          <div class="user-profile">
+            <img src="./images/profile-pic.png">
+          <div>
+            <p>Mr.vishnu</mr></p><small>public <i class="fas fa-map-marker-alt">#</i></small>
+          </div>
+        </div>
+     
+        <!-- for input posting area`  -->
+
+         <div class="post-inputarea">
+              <textarea  rows="10" placeholder="what's on your mind!" ></textarea>
+              <div class="addpost-links">
+                 
+                 <a href=""> <img src="./images/live-video.png">Live video</a>
+                 <a href=""> <img src="./images/photo.png">photo/video</a>
+                 <a href=""> <img src="./images/feeling.png">feelings</a>
+
+
+              </div>
+         </div>
+    </div>
+         
+    
+     <div class="post-block">
+      <div class="user-profile">
+        <img src="./images/profile-pic.png">
+      <div>
+        <p>Mr.Vishnu <a href="" class="user-dots">|||</a></p><span>April 6 2022,8:25 AM</span>
+      </div>
+    </div>
+    <p class="post-text">   How looking this webiste UI Guys ? IS it similar to any social media platform  <a href="#" > &nap; My Github </a> <a href="#" >&nap; My Linked-in </a> </p>
+    <img src="./images/feed-image-5.png" class="post-img"> 
+    
+      <!-- post feelong area -->
+    <div class="post-feel">
+         <div class="activity-icons">
+
+          <div><img src="./images/like-blue.png">&nbsp;1k</div>
+         <div><img src="./images/comments.png">&nbsp;769</div> 
+          <div><img src="./images/share.png"> &nbsp;575</div>
+
+         </div>
+         
+
+         <div class="post-profile-icon">
+          <img src="./images/profile-pic.png"><i class="fas fa-map-marker-alt">#</i>
+
+         </div>
+      </div>      
+ 
+     </div>
+     
+
+
+ <!-- posts----section -->
+
+     
+
+ <div class="post-block">
+  <div class="user-profile">
+    <img src="./images/profile-pic.png">
+  <div>
+    <p>Mr.vishnu <a href="" class="user-dots">|||</a></p><span>April 6 2022,8:25 AM</span>
+  </div>
+</div>
+<p class="post-text">   HEY Guys please like ,comment & share with your friends <br> <a href="#" > &nap; My Github </a> <a href="#" >&nap; My Linked-in </a> </p>
+<img src="./images/feed-image-1.png" class="post-img"> 
+
+  <!-- post feelong area -->
+<div class="post-feel">
+     <div class="activity-icons">
+
+      <div><img src="./images/like-blue.png">&nbsp;3.4k</div>
+     <div><img src="./images/comments.png"> &nbsp;824</div> 
+      <div><img src="./images/share.png"> &nbsp;67</div>
+
+     </div>
+     
+
+     <div class="post-profile-icon">
+      <img src="./images/profile-pic.png"><i class="fas fa-map-marker-alt">#</i>
+
+     </div>
+  </div>      
+
+ </div>
+
+ <div class="post-block">
+  <div class="user-profile">
+    <img src="./images/profile-pic.png">
+  <div>
+    <p>Mr.vishnu <a href="" class="user-dots">|||</a></p><span>june 4 2022,7:15 AM</span>
+  </div>
+</div>
+<p class="post-text">   HEY Guys please like ,comment & share with your friends <br> <a href="#" > &nap; My Github </a> <a href="#" >&nap; My Linked-in </a> </p>
+<img src="./images/feed-image-2.png" class="post-img"> 
+
+  <!-- post feelong area -->
+<div class="post-feel">
+     <div class="activity-icons">
+
+      <div><img src="./images/like.png">&nbsp;2.7k</div>
+     <div><img src="./images/comments.png">&nbsp;1k</div> 
+      <div><img src="./images/share.png"> &nbsp;168</div>
+
+     </div>
+     
+
+     <div class="post-profile-icon">
+      <img src="./images/profile-pic.png"><i class="fas fa-map-marker-alt">#</i>
+
+     </div>
+  </div>      
+
+ </div>
+ <div class="post-block">
+  <div class="user-profile">
+    <img src="./images/profile-pic.png">
+  <div>
+    <p>Mr.vishnu <a href="" class="user-dots">|||</a></p><span>April 6 2022,8:25 AM</span>
+  </div>
+</div>
+<p class="post-text">   HEY Guys please like ,comment & share with your friends <br> <a href="#" > &nap; My Github </a> <a href="#" >&nap; My Linked-in </a> </p>
+<img src="./images/feed-image-4.png" class="post-img"> 
+
+  <!-- post feelong area -->
+<div class="post-feel">
+     <div class="activity-icons">
+
+      <div><img src="./images/like-blue.png">&nbsp;1.4k</div>
+     <div><img src="./images/comments.png">&nbsp;1.1k</div> 
+      <div><img src="./images/share.png"> &nbsp;973</div>
+
+     </div>
+     
+
+     <div class="post-profile-icon">
+      <img src="./images/profile-pic.png"><i class="fas fa-map-marker-alt">#</i>
+
+     </div>
+  </div>      
+
+ </div>
+ <div class="post-block">
+  <div class="user-profile">
+    <img src="./images/profile-pic.png">
+  <div>
+    <p>Mr.vishnu <a href="" class="user-dots">|||</a></p><span>December 23 2022,11:05 PM</span>
+  </div>
+</div>
+<p class="post-text">   HEY Guys please like ,comment & share with your friends <br> <a href="#" > &nap; My Github </a> <a href="#" >&nap; My Linked-in </a> </p>
+<img src="./images/feed-image-3.png" class="post-img"> 
+
+  <!-- post feelong area -->
+<div class="post-feel">
+     <div class="activity-icons">
+
+      <div><img src="./images/like.png">&nbsp;1k</div>
+     <div><img src="./images/comments.png"> &nbsp;769</div> 
+      <div><img src="./images/share.png"> &nbsp;575</div>
+
+     </div>
+     
+
+     <div class="post-profile-icon">
+      <img src="./images/profile-pic.png"><i class="fas fa-map-marker-alt">#</i>
+
+     </div>
+  </div>      
+
+ </div>
+ <button type="button" class="load-more"> Load more</button>
+      
+</div>
+
+       <!-- right-sidebar -->
+       <div class="right-sidebar">
+              
+         <div class="sidebar-title">
+            <h4>Events</h4> 
+            <a href="">see all</a>
+         </div>
+       
+         <!-- 1st event box -->
+         <div class="event">
+            <div class="left-event">
+              <h3>18</h3><span>May</span>
+            </div>
+
+            <div class="right-vent">
+              <h4>Internship Event</h4>
+              <p><i class="fas fa-map-marker-alt">#</i>YVU University Proddutur</p>
+              <a href="">more info</a>
+            </div>
+         </div>
+        
+         
+         <!-- 2st event box -->
+             
+         <div class="event">
+
+          <div class="left-event">
+            <h3>22</h3><span>Dec</span>
+          </div>
+
+          <div class="right-event">
+            <h4>QUIZ Competition</h4>
+            <p><i class="fas fa-map-marker-alt">#</i>Saint Maris E.M School</p>
+            <a href="">more info</a>
+           </div>
+
+         </div>
+
+         <!-- ads block -->
+         <div class="sidebar-title">
+          <h4>Advertisement</h4> 
+          <a href="">close all</a>
+       </div>
+        <img src="./images/advertisement.png" class="sidebar-ads"/>
+        
+
+        <div class="sidebar-title">
+            <h4>Conversation</h4> 
+            <a href="">Hide Chat</a>
+         </div>
+
+          <!-- online members block -->
+          
+            <div class="online-list">
+                <div class="online">
+                  <img src="./images/member-1.png" />
+                  </div>&nbsp;&nbsp;
+                  <p>Mrs. jyothi</p>
+              </div>
+
+                <div class="online-list">
+                  <div class="online">
+                    <img src="./images/member-2.png" />
+                  </div>&nbsp;&nbsp;
+                  <p> Mr. Pradeep</p>
+                </div>
+
+                  <div class="online-list">
+                    <div class="online">
+                      <img src="./images/member-3.png" />
+                    </div>&nbsp;&nbsp;
+                     <p>Mrs. Pandu</p>
+                  </div>
+
+            </div>
+
+
+
+
+
+       </div>
+        
+
+
+ <div class="footer">
+  
+    <p>&copy Copyright  2023-Vishnu vardhan </p>
+   
+ </div>
+
+   
+   <script src="index.js"></script>
+</body>
+
+</html>
